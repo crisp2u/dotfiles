@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+#set -e
+
+echo ""
+echo "Searching heroku configs for: $1"
+
+if [[ $2 ]]; then
+  apps=($2)
+else
+  apps=("bayut" "bayut-sa" "bayut-jo" "zameen" "bproperty")
+fi
+
+
+for app in ${apps[*]}
+do
+  echo ""
+  echo $app
+  for env in "development" "staging" "live"
+  do
+    printf "    %-13s" "$env:"
+    heroku config -a "$app-$env" | grep $1
+    echo ""
+#    heroku config -a "$app-$env" | grep $1 | sed -e "s/$1:[ "$'\t'"]*"$'\n'"//"
+  done
+done
