@@ -11,3 +11,5 @@ alias cd..="cd .."
 alias top="top -o cpu"
 
 alias tf="tail -f"
+
+alias flushdns="killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset"

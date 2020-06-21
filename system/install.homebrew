@@ -15,7 +15,13 @@ osquery
 parallel
 pkgdiff
 readline
+ssh-copy-id
+switchaudio-osx
+szip
+telnet
 the_silver_searcher
 tree
 wget
 xmlstarlet
+zsh
+zsh-completions
