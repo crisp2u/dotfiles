@@ -11,7 +11,7 @@ httpie
 httpstat
 jq
 lolcat
-osquery
+#osquery
 parallel
 pkgdiff
 readline
