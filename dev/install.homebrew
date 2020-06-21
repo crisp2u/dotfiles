@@ -156,7 +156,6 @@ protobuf-c
 putty
 pv
 python
-python@2
 python@3.8
 qt
 rabbitmq
