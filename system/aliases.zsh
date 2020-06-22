@@ -10,6 +10,5 @@ alias cd..="cd .."
 # sort top by CPU by default
 alias top="top -o cpu"
 
-alias tf="tail -f"
 
 alias flushdns="killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset"
