@@ -3,6 +3,7 @@ bash
 coreutils
 curl
 dos2unix
+ext4fuse
 findutils
 fpp
 gnu-sed
@@ -11,6 +12,9 @@ httpie
 httpstat
 jq
 lolcat
+openssh
+openssl
+openssl@1.1
 parallel
 pkgdiff
 readline
