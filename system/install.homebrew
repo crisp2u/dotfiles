@@ -12,6 +12,7 @@ httpie
 httpstat
 jq
 lolcat
+mas
 openssh
 openssl
 openssl@1.1
