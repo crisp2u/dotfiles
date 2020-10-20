@@ -1,8 +1,9 @@
 aws
-git
 brew
-gem
 docker
-terraform
+gem
+git
+kubectl
 osx
+terraform
 virtualenv

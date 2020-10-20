@@ -1,4 +1,6 @@
 alias tf='terraform'
+alias tfpd='terraform plan -out=default.tfplan'
+alias tfad='terraform apply default.tfplan'
 
 alias hubps='hub pull-request -b staging -m "Deploy to staging"'
 alias release='git stash && git fetch && git checkout deploy-to-staging && git rebase origin/master && git push origin deploy-to-staging && hubps && git checkout master && git stash pop'
@@ -17,3 +19,4 @@ alias dbjod='db BAYUT_JO_DEVELOPMENT'
 alias dbzl='db ZAMEEN_LIVE'
 alias dbzs='db ZAMEEN_STAGING'
 alias dbzd='db ZAMEEN_DEVELOPMENT'
+alias curltime="curl -w '\ntime_namelookup:  %{time_namelookup}\n       time_connect:  %{time_connect}\n    time_appconnect:  %{time_appconnect}\n   time_pretransfer:  %{time_pretransfer}\n      time_redirect:  %{time_redirect}\n time_starttransfer:  %{time_starttransfer}\n                    ----------\n         time_total:  %{time_total}\n' \"$@\" "
