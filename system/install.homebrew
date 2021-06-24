@@ -6,6 +6,7 @@ dos2unix
 ext4fuse
 findutils
 fpp
+gawk
 gnu-sed
 gnu-tar
 grc

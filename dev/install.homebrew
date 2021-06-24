@@ -21,6 +21,7 @@ cli53
 cloudflared
 colordiff
 cowsay
+croc
 curl
 dav1d
 dep
@@ -39,6 +40,7 @@ epsilon
 erlang
 expat
 fastlane
+fetch
 ffmpeg
 flac
 fontconfig
@@ -178,8 +180,8 @@ snappy
 speex
 sqlite
 srt
-terraform
 terraform-docs
+terraform@0.12
 tesseract
 tflint
 theora

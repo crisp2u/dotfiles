@@ -3,6 +3,8 @@ aws-iam-authenticator
 chamber
 helm
 helmfile
-kubectl
+k3d
+kubernetes-cli
 kubeval
+sshuttle
 stern
