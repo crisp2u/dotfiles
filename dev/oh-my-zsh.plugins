@@ -3,7 +3,8 @@ brew
 docker
 gem
 git
-kubectl
 osx
 terraform
 virtualenv
+urltools
+zsh-autosuggestions

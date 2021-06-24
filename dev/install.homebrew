@@ -24,6 +24,7 @@ cowsay
 curl
 dav1d
 dep
+dive
 docker
 docker-clean
 docker-compose
@@ -70,6 +71,7 @@ harfbuzz
 hdf5
 heroku
 heroku-node
+httping
 hub
 icdiff
 icu4c
@@ -122,6 +124,7 @@ mapbox
 maven
 midnight-commander
 mitmproxy
+mole
 mpfr
 ncurses
 netcdf

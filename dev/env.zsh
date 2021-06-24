@@ -10,3 +10,4 @@ export PATH="/usr/local/opt/node@8/bin:$PATH"
 export PATH="$HOME/Library/Python/3.7/bin:$PATH"
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+export AWS_SDK_LOAD_CONFIG=true

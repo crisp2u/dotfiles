@@ -3,6 +3,7 @@
 [core]
     excludesfile = /Users/cristian.pop/.gitignore_global
     pager = "diff-so-fancy | less --tabs=4 -RFX"
+	autocrlf = input
 [diff-so-fancy]
     markEmptyLines = false
 	first-run = false
@@ -121,3 +122,5 @@
 
     #grumble
     ffs = "!git all && git commit --amend"
+[diff "sopsdiffer"]
+	textconv = sops -d

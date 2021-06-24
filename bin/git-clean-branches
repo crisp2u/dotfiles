@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Clean defunct local branches
+
+git branch -vv | grep ': gone]'|  grep -v "\*" | awk '{ print $1; }' | xargs -n 1 git branch -D

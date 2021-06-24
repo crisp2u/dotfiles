@@ -1,1 +1,8 @@
+argocd
+aws-iam-authenticator
+chamber
+helm
+helmfile
+kubectl
+kubeval
 stern

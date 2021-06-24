@@ -3,8 +3,10 @@ cloudflare/cloudflare
 drone/drone
 getsentry/tools
 golangci/tap
+hashicorp/tap
 heroku/brew
+homebrew/cask-fonts
 mapbox/cli
 sectorlabs/maple
 wix/brew
-homebrew/cask-fonts
+davrodpin/homebrew-mole
