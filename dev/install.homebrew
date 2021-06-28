@@ -186,9 +186,8 @@ tesseract
 tflint
 theora
 tmux
-unbound
+#unbound
 unixodbc
-unrar
 utf8proc
 watchman
 webp
