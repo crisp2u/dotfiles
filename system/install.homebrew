@@ -3,7 +3,7 @@ bash
 coreutils
 curl
 dos2unix
-ext4fuse
+#ext4fuse
 findutils
 fpp
 gawk
@@ -17,7 +17,7 @@ lolcat
 mas
 openssh
 openssl
-openssl@1.1
+#openssl@1.1
 parallel
 pkgdiff
 readline
@@ -25,9 +25,6 @@ ssh-copy-id
 switchaudio-osx
 szip
 telnet
-the_silver_searcher
 tree
 wget
-xmlstarlet
-zsh
-zsh-completions
+#xmlstarlet
