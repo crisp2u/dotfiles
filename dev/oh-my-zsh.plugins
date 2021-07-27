@@ -1,10 +1,10 @@
 aws
 brew
 docker
+gcloud
 gem
 git
 osx
 terraform
-virtualenv
 urltools
-zsh-autosuggestions
+virtualenv
