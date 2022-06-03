@@ -4,7 +4,7 @@ docker
 gcloud
 gem
 git
-osx
+macos
 terraform
 urltools
 virtualenv

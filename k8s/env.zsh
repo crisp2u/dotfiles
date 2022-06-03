@@ -1,6 +1,7 @@
 export LANG=en_US.UTF-8
 export EDITOR='subl -w'
 export KUBE_EDITOR='code --wait'
+export HELM_DIFF_COLOR=true
 
 export NODE_OPTIONS=--max_old_space_size=4096
 export LDFLAGS="-L/usr/local/opt/openssl/lib"

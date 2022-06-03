@@ -1,3 +1,5 @@
+alias ls='exa'
+alias dir='ls -l'
 alias tf='terraform'
 alias tfpd='terraform plan -out=default.tfplan'
 alias tfad='terraform apply default.tfplan'

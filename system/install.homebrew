@@ -3,17 +3,21 @@ bash
 coreutils
 curl
 dos2unix
+duf
+fd
 findutils
 fpp
 gawk
 gnu-sed
 gnu-tar
 grc
+htop
 httpie
 httpstat
 jq
 lolcat
 mas
+ncdu #ncurses disk usage
 openssh
 openssl
 parallel
