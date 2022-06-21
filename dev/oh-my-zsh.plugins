@@ -5,6 +5,7 @@ gcloud
 gem
 git
 macos
+pyenv
 terraform
 urltools
 virtualenv

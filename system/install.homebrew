@@ -14,17 +14,15 @@ grc
 htop
 httpie
 httpstat
-jq
 lolcat
 mas
-ncdu #ncurses disk usage
+ncdu
 openssh
 openssl
 parallel
 pkgdiff
 readline
 ssh-copy-id
-switchaudio-osx
 szip
 telnet
 tree
