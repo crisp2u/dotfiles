@@ -6,3 +6,4 @@ docker
 terraform
 osx
 virtualenv
+fzf
