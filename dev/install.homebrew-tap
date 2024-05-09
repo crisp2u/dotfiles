@@ -1,10 +1,5 @@
-bazelbuild/tap
-cloudflare/cloudflare
-drone/drone
-getsentry/tools
-golangci/tap
-hashicorp/tap
 heroku/brew
 homebrew/cask-fonts
 mapbox/cli
+thecasualcoder/stable
 wix/brew

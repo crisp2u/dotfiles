@@ -1,6 +1,6 @@
 alias k='kubectl'
 #ops
-alias ops='export AWS_PROFILE=ops && kubectl config use-context ops'
+alias ops='export AWS_PROFILE=empg-ops && kubectl config use-context ops'
 
 #Olx Pk
 alias olxpd='export AWS_PROFILE=olx-pk-dev'
@@ -11,9 +11,9 @@ alias olxpg='export AWS_PROFILE=olx-pk-global'
 alias chamberd='AWS_PROFILE=olx-pk-dev chamber'
 alias chambers='AWS_PROFILE=olx-pk-stage chamber'
 alias chamberp='AWS_PROFILE=olx-pk-prod chamber'
-alias olxbd='sshuttle --verbose --dns -NHr bastion-dev 10.0.0.0/12'
-alias olxbs='sshuttle --verbose --dns -NHr bastion-stage 10.10.0.0/12'
-alias olxbp='sshuttle --verbose --dns -NHr bastion-prod 10.20.0.0/12'
+alias olxbd='sshuttle --verbose --dns -NHr olx-pk-dev-bastion 10.0.0.0/12'
+alias olxbs='sshuttle --verbose --dns -NHr olx-pk-stage-bastion 10.10.0.0/12'
+alias olxbp='sshuttle --verbose --dns -NHr olx-pk-prod-bastion 10.20.0.0/12'
 alias olxkd='kubectl config use-context olx-pk-development --namespace olx-pk-development'
 alias olxks='kubectl config use-context olx-pk-staging --namespace olx-pk-staging'
 alias olxkp='kubectl config use-context olx-pk-production --namespace olx-pk-live'
@@ -99,9 +99,69 @@ alias kwkp='kubectl config use-context olx-kw-production --namespace olx-kw-prod
 #Dubizzle TS
 
 alias dbzpp='export AWS_PROFILE=dubizzle-ts-prod'
-alias dbzbp='sshuttle --verbose --dns -NHr dubizzle-ts-prod-bastion 10.59.0.0/12'
+alias dbzbp='sshuttle --verbose --dns -NHr dubizzle-ts-prod-bastion 10.69.0.0/12'
 alias dbzkp='kubectl config use-context dubizzle-ts-production --namespace tubescreamer'
 
 alias dbzps='export AWS_PROFILE=dubizzle-ts-stage'
 alias dbzbs='sshuttle --verbose --dns -NHr dubizzle-ts-stage-bastion 10.49.0.0/12'
 alias dbzks='kubectl config use-context dubizzle-ts-staging --namespace tubescreamer'
+
+
+#Bayut
+#dev
+alias bapd='export AWS_PROFILE=bayut-dev'
+alias babd='sshuttle --verbose --dns -NHr bayut-dev-bastion 10.19.0.0/12'
+alias bakd='kubectl config use-context bayut-development --namespace bayut-development'
+#stage
+alias baps='export AWS_PROFILE=bayut-stage'
+alias babs='sshuttle --verbose --dns -NHr bayut-stage-bastion 10.29.0.0/16'
+alias baks='kubectl config use-context bayut-staging --namespace bayut-staging'
+#prod
+alias bapp='export AWS_PROFILE=bayut-prod'
+alias babp='sshuttle --verbose --dns -NHr bayut-prod-bastion 10.39.0.0/12'
+alias bakp='kubectl config use-context bayut-production --namespace bayut-production'
+
+#Bayut Jordan
+#dev
+alias bjpd='export AWS_PROFILE=bayut-jo-dev'
+alias bjbd='sshuttle --verbose --dns -NHr bayut-jo-dev-bastion 10.41.0.0/16'
+alias bjkd='kubectl config use-context bayut-jo-development --namespace bayut-jo-development'
+#prod
+alias bjpp='export AWS_PROFILE=bayut-jo-prod'
+alias bjbp='sshuttle --verbose --dns -NHr bayut-jo-prod-bastion 10.61.0.0/16'
+alias bjkp='kubectl config use-context bayut-jo-production --namespace bayut-jo-production'
+
+
+#Bayut SA
+#prod
+alias bsapp='export AWS_PROFILE=bayut-sa-prod'
+alias bsabp='sshuttle --verbose --dns -NHr bayut-sa-prod-bastion 10.80.0.0/16'
+alias bsakp='kubectl config use-context bayut-sa-production --namespace bayut-sa-production'
+
+
+#Zameen
+#stage
+alias zaps='export AWS_PROFILE=zameen-stage'
+alias zabd='sshuttle --verbose --dns -NHr zameen-stage-bastion 10.101.0.0/16'
+alias zakd='kubectl config use-context zameen-staging --namespace zameeen-staging'
+
+
+#Bproperty
+#prod
+alias bpapp='export AWS_PROFILE=bproperty-prod'
+alias bpbp='sshuttle --verbose --dns -NHr bproperty-prod-bastion 10.90.0.0/16'
+alias bpakp='kubectl config use-context bproperty-production --namespace bproperty-production'
+
+
+#Lamudi ID
+#prod
+alias liapp='export AWS_PROFILE=lamudi-id-prod'
+alias libp='sshuttle --verbose --dns -NHr lamudi-id-prod-bastion 10.110.0.0/16'
+alias liakp='kubectl config use-context lamudi-id-production --namespace lamudi-id-production'
+
+
+#Lamudi PH
+#prod
+alias lpapp='export AWS_PROFILE=lamudi-ph-prod'
+alias lpbp='sshuttle --verbose --dns -NHr lamudi-ph-prod-bastion 10.130.0.0/16'
+alias lpakp='kubectl config use-context lamudi-ph-production --namespace lamudi-ph-production'

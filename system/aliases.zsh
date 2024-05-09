@@ -1,5 +1,7 @@
 # overrides for ls
-alias ls="gls -F --color=auto"
+if ! which dircolors > /dev/null; then
+	alias ls="gls -F --color=auto"
+fi
 alias l="ls -lAh --color=auto"
 alias ll="ls -l --color=auto"
 alias la="ls -A --color=auto"
@@ -10,5 +12,3 @@ alias cd..="cd .."
 # sort top by CPU by default
 alias top="top -o cpu"
 
-
-alias flushdns="killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset"

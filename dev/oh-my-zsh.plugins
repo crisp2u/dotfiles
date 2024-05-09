@@ -1,12 +1,11 @@
-aws
 brew
 docker
-gcloud
+fzf
 gem
 git
 macos
-pyenv
-terraform
+nvm
 osx
+pyenv
+urltools
 virtualenv
-fzf

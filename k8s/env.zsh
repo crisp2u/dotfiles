@@ -9,9 +9,11 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 export ALGOLIA_ADMIN_API_KEY=donotindex
 export PATH="/usr/local/opt/postgresql/bin:$PATH"
 export PATH="/usr/local/opt/node@8/bin:$PATH"
-export PATH="$HOME/Library/Python/3.7/bin:$PATH"
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+
+export INFRASTRUCTURE_EMPG_HOME=/Users/cristian.pop/projects/sl/infra/infrastructure-empg/
+export INFRASTRUCTURE_MODULES_HOME=/Users/cristian.pop/projects/sl/infra/infrastructure-modules/
 
 # https://nikgrozev.com/2019/10/03/switch-between-multiple-kubernetes-clusters-with-ease/
 # Set the default kube context if present

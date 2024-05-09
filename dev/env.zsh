@@ -6,10 +6,8 @@ export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
 export PATH="/usr/local/opt/postgresql/bin:$PATH"
 export PATH="/usr/local/opt/node@8/bin:$PATH"
-export PATH="$HOME/Library/Python/3.7/bin:$PATH"
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
-export AWS_SDK_LOAD_CONFIG=true
 export HISTSIZE=10000000
 export SAVEHIST=10000000
 setopt BANG_HIST                 # Treat the '!' character specially during expansion.
@@ -26,6 +24,13 @@ setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording en
 setopt HIST_VERIFY               # Don't execute immediately upon history expansion.
 #setopt HIST_BEEP                 # Beep when accessing nonexistent history.
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
+
+# Setting the LG_WEBOS_TV_SDK_HOME variable to the parent directory of CLI
+export LG_WEBOS_TV_SDK_HOME="${HOME}/projects/personal/webOS_TV_SDK"
+
+if [ -d "$LG_WEBOS_TV_SDK_HOME/CLI/bin" ]; then
+    # Setting the WEBOS_CLI_TV variable to the bin directory of CLI
+    export WEBOS_CLI_TV="$LG_WEBOS_TV_SDK_HOME/CLI/bin"
+    # Adding the bin directory of CLI to the PATH variable
+    export PATH="$PATH:$WEBOS_CLI_TV"
+fi

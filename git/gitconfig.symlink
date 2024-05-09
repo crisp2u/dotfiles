@@ -133,3 +133,8 @@
 [user]
 	name = cristian.pop
 	email = crisp2u@gmail.com
+	signingkey = /Users/cristian.pop/.ssh/id_ed25519.pub
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
