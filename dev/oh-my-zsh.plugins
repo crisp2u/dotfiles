@@ -7,5 +7,6 @@ git
 macos
 pyenv
 terraform
-urltools
+osx
 virtualenv
+fzf

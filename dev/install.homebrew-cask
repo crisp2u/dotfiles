@@ -12,7 +12,6 @@ fing
 font-awesome-terminal-fonts
 font-roboto-mono-for-powerline
 gdisk
-goland
 google-cloud-sdk
 joplin
 kap
@@ -21,11 +20,9 @@ ngrok
 packet-peeper
 pgadmin4
 pycharm
-rubymine
 shiftit
-sourcetree
+sublime-merge
 sublime-text
-teamviewer
 typora
 unetbootin
 vagrant
