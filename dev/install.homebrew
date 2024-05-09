@@ -1,6 +1,5 @@
 autoconf
 automake
-awk
 aws-shell
 awscli
 bash-completion
@@ -9,8 +8,10 @@ boost
 circleci
 cli53
 cloudflared
+cmake
 colordiff
 cowsay
+croc
 curl
 docker-clean
 docker-compose
@@ -18,8 +19,10 @@ docker-credential-helper
 docker-credential-helper-ecr
 duck
 erlang
+exa
 expat
 fastlane
+fetch
 ffmpeg
 flac
 fontconfig
@@ -45,6 +48,7 @@ harfbuzz
 hdf5
 heroku
 heroku-node
+httping
 hub
 icdiff
 icu4c
@@ -60,7 +64,6 @@ lame
 ldns
 lnav
 lzo
-mackup
 make
 midnight-commander
 mitmproxy
@@ -92,8 +95,7 @@ protobuf
 protobuf-c
 putty
 pv
-python
-python@3.8
+pyenv
 qt
 rabbitmq
 readline
@@ -118,9 +120,9 @@ tflint
 tmux
 unbound
 unixodbc
-unrar
 utf8proc
 watchman
 yarn
 youtube-dl
+yq
 zstd

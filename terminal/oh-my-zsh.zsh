@@ -1,2 +1,1 @@
- unsetopt SHARE_HISTORY
- 
+ZSH_THEME="powerlevel10k/powerlevel10k"

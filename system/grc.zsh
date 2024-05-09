@@ -1,1 +1,1 @@
-source `brew --prefix`/etc/grc.bashrc
+#source "$HOMEBREW_PREFIX/etc/grc.bashrc"

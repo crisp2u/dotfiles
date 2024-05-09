@@ -1,8 +1,11 @@
 aws
-git
 brew
-gem
 docker
+gcloud
+gem
+git
+macos
+pyenv
 terraform
 osx
 virtualenv
