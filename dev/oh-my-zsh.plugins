@@ -5,7 +5,7 @@ gem
 git
 macos
 nvm
-osx
+macos
 pyenv
 urltools
 virtualenv
