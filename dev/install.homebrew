@@ -62,6 +62,7 @@ jq
 json-c
 lame
 ldns
+libpq
 lnav
 lzo
 make
@@ -87,8 +88,6 @@ pixman
 pkg-config
 poppler
 popt
-postgis
-postgresql
 pre-commit
 proj
 protobuf
@@ -97,9 +96,7 @@ putty
 pv
 pyenv
 qt
-rabbitmq
 readline
-redis
 rtmpdump
 rubberband
 ruby
