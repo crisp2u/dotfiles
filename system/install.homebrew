@@ -23,7 +23,6 @@ parallel
 pkgdiff
 readline
 ssh-copy-id
-szip
 telnet
 tree
 wget
