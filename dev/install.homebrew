@@ -19,7 +19,7 @@ docker-credential-helper
 docker-credential-helper-ecr
 duck
 erlang
-exa
+eza
 expat
 fastlane
 fetch
@@ -119,6 +119,6 @@ utf8proc
 watch
 watchman
 yarn
-youtube-dl
+yt-dlp
 yq
 zstd
