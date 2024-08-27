@@ -1,1 +1,0 @@
-alias hubps='hub pull-request -b staging -m "Deploy to staging"'

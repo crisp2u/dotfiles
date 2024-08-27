@@ -1,1 +1,0 @@
-export ALGOLIA_ADMIN_API_KEY=donotindex
