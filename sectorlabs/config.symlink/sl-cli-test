@@ -1,0 +1,6 @@
+[variables]
+SL_CLI_IDENTITY_FILE='/Users/cristian.pop/.ssh/id_ed25519'
+SL_CLI_FIRST_NAME='Cristian'
+SL_CLI_LAST_NAME='Pop'
+SL_CLI_USE_TERRAFORM = "yes"
+SL_CLI_IGNORE_BACKSTAGE_CATALOG_WARNINGS = "true"
