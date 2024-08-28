@@ -1,0 +1,26 @@
+Host *
+  AddKeysToAgent yes
+ # IdentitiesOnly yes
+  IgnoreUnknown UseKeychain
+  UseKeychain yes
+  #PubkeyAcceptedKeyTypes +ssh-rsa
+Host hub.sector.sh
+    User ubuntu
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+Host nexus.sector.sh
+    User ubuntu
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+Host merlin
+	HostName 192.168.10.1
+	User admin
+Host pi
+	HostName 192.168.10.3
+	User pi
+Host omv
+	HostName 192.168.10.10
+	User root
+    IdentityFile ~/.ssh/id_ed25519
+Host github.com
+	IdentityFile ~/.ssh/id_ed25519
