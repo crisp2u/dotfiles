@@ -1,8 +1,6 @@
 autoconf
 automake
 aws-shell
-awscli
-boost
 circleci
 cli53
 cloudflared
@@ -14,7 +12,6 @@ docker-clean
 docker-compose
 docker-credential-helper
 docker-credential-helper-ecr
-duck
 eza
 fastlane
 fetch
@@ -40,7 +37,6 @@ pv
 pyenv
 readline
 rtmpdump
-rubberband
 ruby
 sentry-cli
 shellcheck
@@ -49,7 +45,6 @@ tfenv
 tflint
 tmux
 watch
-watchman
 yarn
 yt-dlp
 yq

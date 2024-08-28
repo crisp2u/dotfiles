@@ -28,3 +28,8 @@ utf8proc
 cmake
 vagrant
 virtualbox
+watchman
+duck
+rubberband
+boost
+awscli
