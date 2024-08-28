@@ -17,3 +17,10 @@ function wait-for-fail-url() {
     echo "OK!"
     curl -I $1
 }
+
+
+function tfcleam() {
+    echo "Cleaning up .terraform from $1"
+    find $1 -type d -name ".terraform" -exec rm -rf {} \;
+    echo "Done!"
+}
