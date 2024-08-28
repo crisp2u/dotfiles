@@ -23,6 +23,8 @@ setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording en
 setopt HIST_VERIFY               # Don't execute immediately upon history expansion.
 #setopt HIST_BEEP                 # Beep when accessing nonexistent history.
 
+#fix for pyenv instant prompt
+export PYENV_VIRTUALENV_DISABLE-PROMPT=1
 
 # Setting the LG_WEBOS_TV_SDK_HOME variable to the parent directory of CLI
 export LG_WEBOS_TV_SDK_HOME="${HOME}/projects/personal/webOS_TV_SDK"
