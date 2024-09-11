@@ -4,6 +4,10 @@ chamber
 helm
 helmfile
 k3d
+k9s
+kubectx
 kubernetes-cli
+kustomize
+skaffold
 sshuttle
 stern
