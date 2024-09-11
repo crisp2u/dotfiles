@@ -9,5 +9,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 $DIR/sublime.sh
 
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
-installer -pkg AWSCLIV2.pkg -target /
+sudo installer -pkg AWSCLIV2.pkg -target /
 rm AWSCLIV2.pkg
+
+python3 -m pip install "pg_activity[psycopg]"
