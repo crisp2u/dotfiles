@@ -24,14 +24,4 @@ setopt HIST_VERIFY               # Don't execute immediately upon history expans
 #setopt HIST_BEEP                 # Beep when accessing nonexistent history.
 
 #fix for pyenv instant prompt
-export PYENV_VIRTUALENV_DISABLE-PROMPT=1
-
-# Setting the LG_WEBOS_TV_SDK_HOME variable to the parent directory of CLI
-export LG_WEBOS_TV_SDK_HOME="${HOME}/projects/personal/webOS_TV_SDK"
-
-if [ -d "$LG_WEBOS_TV_SDK_HOME/CLI/bin" ]; then
-    # Setting the WEBOS_CLI_TV variable to the bin directory of CLI
-    export WEBOS_CLI_TV="$LG_WEBOS_TV_SDK_HOME/CLI/bin"
-    # Adding the bin directory of CLI to the PATH variable
-    export PATH="$PATH:$WEBOS_CLI_TV"
-fi
+#export PYENV_VIRTUALENV_DISABLE-PROMPT=1
