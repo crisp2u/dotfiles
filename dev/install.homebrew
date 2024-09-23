@@ -42,6 +42,7 @@ pre-commit
 pv
 pyenv
 readline
+redis
 rtmpdump
 ruby
 sentry-cli
